@@ -1,0 +1,23 @@
+apiVersion: v1
+data:
+  ca-bundle.crt: |-
+    -----BEGIN CERTIFICATE-----
+    MIICSDCCAe6gAwIBAgIUHxGEtaSt7DW0Q37SfQY13WrLIQMwCgYIKoZIzj0EAwIw
+    JTEjMCEGA1UEAxMacm9vdC5saW5rZXJkLmNsdXN0ZXIubG9jYWwwHhcNMjQwMTIy
+    MTIyOTQ2WhcNMjQwNDIxMTIzMDE2WjAlMSMwIQYDVQQDExpyb290LmxpbmtlcmQu
+    Y2x1c3Rlci5sb2NhbDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABF++/pzE0hMo
+    8z7c4F39TvMAkswYtOtWNrWxZGLqy9N66EVTxEE+C73V5dmofWMV72sdiYhwKV4h
+    oGBRqzY3vDKjgfswgfgwDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8w
+    HQYDVR0OBBYEFDTvVeHVEZcPwGIzRqt4FG+XhbqjMB8GA1UdIwQYMBaAFDTvVeHV
+    EZcPwGIzRqt4FG+XhbqjMDsGCCsGAQUFBwEBBC8wLTArBggrBgEFBQcwAoYfaHR0
+    cDovLzEyNy4wLjAuMTo4MjAwL3YxL3BraS9jYTAlBgNVHREEHjAcghpyb290Lmxp
+    bmtlcmQuY2x1c3Rlci5sb2NhbDAxBgNVHR8EKjAoMCagJKAihiBodHRwOi8vMTI3
+    LjAuMC4xOjgyMDAvdjEvcGtpL2NybDAKBggqhkjOPQQDAgNIADBFAiAr02LlnXZp
+    /eGBk7OOOBSs6tH+beGvjmW9tH8HzygMGAIhALhdvMiIwwJbYpmgzZuVUy2fe/WG
+    tTsnNKpeAQgnzqq3
+    -----END CERTIFICATE-----
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: linkerd-identity-trust-roots
+  namespace: linkerd
